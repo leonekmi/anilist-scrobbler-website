@@ -1,0 +1,19 @@
+{
+    "page": "Connexion - Anilist Scrobbler",
+    "title": "Anilist Scrobbler",
+    "menu_toggle": "Menu",
+    "home": "Accueil",
+    "install": "Installer",
+    "paypal": "Dons Paypal",
+    "header": "Connexion en cours !",
+    "slogan": "Patientez un peu, un popup va apparaître",
+    "question": "La popup n'apparaît pas ?",
+    "response": "Réesayez une fois, on sait jamais. Si ça ne marche toujours pas, il est possible qu'une erreur au niveau d'Anilist.co ou d'Anilist Scrobbler soit survenue, merci de contacter @leonekmi sur <a href=\"https://twitter.com/leonekmi\">Twitter</a> ou sur <a href=\"https://t.me/leonekmi\">Telegram</a>.",
+    "twitter": "Twitter",
+    "telegram": "Telegram",
+    "email": "Email",
+    "copyright": "&copy; leonekmi 2017",
+    "images": "Images : Diomédéa, Crunchyroll (Distribution en France)",
+    "respective_owners": "Les images apartiennent à leurs propriétaires respectifs.",
+    "html5up": "Design: <a href=\"http://html5up.net\">HTML5 UP"
+}

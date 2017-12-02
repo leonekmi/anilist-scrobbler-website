@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title data-localize="page">Installer - Anilist Scrobbler</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+        <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        </style>
+	</head>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html" data-localize="title">Anilist Scrobbler</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a data-localize="menu" href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+                                            <li><a href="index.html" data-localize="home">Accueil</a></li>
+                                            <li><a href="install.html" data-localize="install">Installer</a></li>
+											<li><a href="https://paypal.me/leonekmiperso" data-localize="paypal">Dons PayPal</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2 data-localize="header">Une mise à jour est disponible !</h2>
+							<p data-localize="slogan">Voici comment mettre à jour votre extension.</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+                                <ul class="actions">
+    								<li><a href="./al_scrobbler1.9.2.crx" class="button special" data-localize="download_chrome">Télécharger l'extension pour Chrome</a></li>
+                                    <li><a href="./al_scrobbler1.9.2.xpi" class="button special" data-localize="download_firefox">Télécharger l'extension pour Firefox</a></li>
+    							</ul>
+
+                                <h4 data-localize="for_chrome">Pour Chrome</h4>
+
+								<p data-localize="first_step">L'extension sera téléchargée et cliquez sur "Continuer" si cette fenêtre apparaît.</p>
+
+                                <div class="image"><img src="images/step1.jpg" alt="" /></div>
+
+                                <p data-localize="second_step">Ensuite ouvrez le menu des extensions :</p>
+
+                                <div class="image"><img src="images/step2.jpg" alt="" /></div>
+
+                                <p data-localize="third_step">Puis faites glisser le fichier téléchargé sur la page :</p>
+
+                                <div class="image"><img src="images/step3.jpg" alt="" /></div>
+
+                                <p data-localize="end">Acceptez les nouvelles permissions si il y en a et l'extension sera mise à jour, aucun besoin de reconnexion.</p>
+
+							</div>
+						</section>
+					</article>
+
+                    <!-- Footer -->
+    					<footer id="footer">
+    						<ul class="icons">
+    							<li><a href="https://twitter.com/leonekmi" class="icon fa-twitter"><span class="label" data-localize="twitter">Twitter</span></a></li>
+                                <li><a href="https://t.me/leonekmi" class="icon fa-telegram"><span class="label" data-localize="telegram">Telegram</span></a></li>
+    							<li><a href="mailto:leonekmi@hotmail.com" class="icon fa-envelope-o"><span class="label" data-localize="email">Email</span></a></li>
+    						</ul>
+    						<ul class="copyright">
+    							<li data-localize="copyright">&copy; leonekmi 2017</li><li data-localize="images">Images : DioMédéa, Doga Kobo, SILVER LINK., Kyoto Animation, Crunchyroll (distribution en France)</li><li data-localize="respective_owners">Les images apartiennent à leurs propriétaires respectifs.</li><li data-localize="html5up">Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    						</ul>
+    					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/jquery.localize.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script>
+            var regex = /^fr|en/;
+            if (!regex.test(navigator.language)) {
+                $("[data-localize]").localize("update", {"language": "en"});
+            } else {
+                $("[data-localize]").localize("update");
+            }
+            </script>
+
+	</body>
+</html>

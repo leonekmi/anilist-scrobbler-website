@@ -1,0 +1,19 @@
+{
+    "page": "Login - Anilist Scrobbler",
+    "title": "Anilist Scrobbler",
+    "menu_toggle": "Menu",
+    "home": "Home",
+    "install": "Install",
+    "paypal": "Paypal",
+    "header": "Logging in !",
+    "slogan": "Please wait, a popup will appear !",
+    "question": "The popup didn't appeared ?",
+    "response": "Retry one time, maybe a bug. If it stills stucks, it can be an issue with Anilist API, please contact @leonekmi on <a href=\"https://twitter.com/leonekmi\">Twitter</a> or <a href=\"https://t.me/leonekmi\">Telegram</a>.",
+    "twitter": "Twitter",
+    "telegram": "Telegram",
+    "email": "Email",
+    "copyright": "&copy; leonekmi 2017",
+    "images": "Images : DioMédéa, Doga Kobo, SILVER LINK., Kyoto Animation, Crunchyroll (distribution in France)",
+    "respective_owners": "The pictures belong to their respective owners.",
+    "html5up": "Design: <a href=\"http://html5up.net\">HTML5 UP</a>"
+}
